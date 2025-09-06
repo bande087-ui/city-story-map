@@ -52,14 +52,15 @@ const Index = () => {
                 <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
-                onClick={() => window.location.href = '/community'}
-              >
-                <Users className="w-5 h-5 mr-2" />
-                Join the Community
-              </Button>
+  size="lg" 
+  variant="outline" 
+  className="border-primary-foreground/30 text-white hover:bg-primary-foreground/10"
+  onClick={() => window.location.href = '/community'}
+>
+  <Users className="w-5 h-5 mr-2" />
+  Join the Community
+</Button>
+
             </div>
 
             <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-primary-foreground/80">
